@@ -1,0 +1,18 @@
+header, footer {
+    background-color:rgb(255, 238, 204);
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: auto;
+    column-gap: 10px;
+}
+
+ul li {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    column-gap: 30px;
+}
