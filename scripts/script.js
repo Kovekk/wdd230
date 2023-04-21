@@ -1,4 +1,5 @@
-const footer = document.querySelector(footer);
+const copyrightFooter = document.querySelector("#copyright");
+copyrightFooter.innerHTML = `&copy; 2023 | Robert Lowry | Utah`;
 
 const options = {
     month: "numeric",
@@ -7,6 +8,16 @@ const options = {
     hour: "numeric",
     minute: "numeric",
     second: "numeric"
-}
+};
 
-footer.innerHTML = `<p>&copy 2023 | Robert Lowry | Utah/n${newDate().toLocaleDateString("in-US", options)}</p>`
+let lastModified = new Date(document.lastModified).toLocaleString("en-US", options);
+
+const lastModifiedFooter = document.querySelector("#lastModified");
+lastModifiedFooter.innerHTML = `Last modified: ${lastModified}`
+
+
+
+
+
+// const footer = document.querySelector("footer p");
+// footer.innerHTML = "new text!";

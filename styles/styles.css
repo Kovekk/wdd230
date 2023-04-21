@@ -1,8 +1,21 @@
-header, footer {
+body {
+    max-width: 500px;
+    margin: auto;
+}
+
+header {
     background-color:rgb(255, 238, 204);
     display: grid;
     grid-template-columns: auto auto;
     gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(255, 238, 204);
+    text-align: center;
+    padding: 1px;
 }
 
 ul {
