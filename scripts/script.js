@@ -1,5 +1,9 @@
 const copyrightFooter = document.querySelector("#copyright");
-copyrightFooter.innerHTML = `&copy; 2023 | Robert Lowry | Utah`;
+
+const year = {year: "numeric"};
+const currentYear = new Date().toLocaleString("en-US", year);
+
+copyrightFooter.innerHTML = `&copy; ${currentYear} | Robert Lowry | Utah`;
 
 const options = {
     month: "numeric",
