@@ -1,0 +1,29 @@
+@media only screen and (min-width: 500px) {
+    main {
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    #apple-website {
+        grid-column: 3;
+    }
+
+    h1 {
+        font-size: 33px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    div h3 {
+        font-size: 20px;
+    }
+
+    p, a {
+        font-size: 15px;
+    }
+
+    footer {
+        font-size: 15px;
+    }
+}
