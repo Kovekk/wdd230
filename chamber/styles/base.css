@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: #a7c2da;
+}
+
+header img {
+    max-width: 100px;
+}
+
+header h1 {
+    margin: 20px 10px;
+    order: 1;
+    font-size: 25px;
+}
+
+.social-media {
+    max-width: 30px;
+    order: 3;
+}
+
+nav {
+    margin-left: auto;
+    order: 4;
+}
+
+nav ul {
+    display: none;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+/* nav ul.active {
+    display: 
+} */
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 30px 20px;
+    border-top: 2px solid rgba(0,0,0,0.5);
+    align-self: right;
+}
+
+nav button {
+    margin-right: 10px;
+    margin-left: auto;
+    font-size: 30px;
+}
