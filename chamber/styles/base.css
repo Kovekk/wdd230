@@ -1,51 +1,71 @@
 header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #a7c2da;
 }
 
 header img {
-    max-width: 100px;
+    max-width: 70px;
 }
 
 header h1 {
     margin: 20px 10px;
     order: 1;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+#currentDate {
+    order:4;
+    align-self: flex-end;
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+
 }
 
 .social-media {
     max-width: 30px;
     order: 3;
+    margin: 5px;
+}
+
+#first-social-media {
+    margin-left: auto;
 }
 
 nav {
-    margin-left: auto;
-    order: 4;
+    order: 5;
+    align-self: flex-end;
+    width: 100%;
 }
 
 nav ul {
     display: none;
     list-style-type: none;
     padding: 0px;
-    margin: 0px;
+    margin: auto;
 }
 
-/* nav ul.active {
-    display: 
-} */
+nav ul.active {
+    display: block;
+}
 
 nav ul li a {
     display: block;
     text-decoration: none;
     color: black;
-    padding: 30px 20px;
+    padding: 25px 20px;
     border-top: 2px solid rgba(0,0,0,0.5);
     align-self: right;
 }
 
 nav button {
+    display: block;
     margin-right: 10px;
     margin-left: auto;
+    margin-bottom: 10px;
     font-size: 30px;
+    border-style: none;
+    background-color: #a7c2da;
 }
