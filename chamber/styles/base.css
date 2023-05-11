@@ -18,9 +18,10 @@ header h1 {
 #currentDate {
     order:4;
     align-self: flex-end;
-    width: 100%;
+    width: 80%;
     text-align: center;
     margin: 0px auto;
+    background-color: #7c9dbb;
 
 }
 
@@ -62,10 +63,9 @@ nav ul li a {
 
 nav button {
     display: block;
-    margin-right: 10px;
     margin-left: auto;
-    margin-bottom: 10px;
     font-size: 30px;
     border-style: none;
     background-color: #a7c2da;
+    padding: 15px;
 }
