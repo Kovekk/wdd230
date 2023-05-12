@@ -3,6 +3,7 @@ header {
     flex-wrap: wrap;
     align-items: center;
     background-color: #a7c2da;
+    margin-bottom: 10px;
 }
 
 header img {
@@ -68,4 +69,16 @@ nav button {
     border-style: none;
     background-color: #a7c2da;
     padding: 15px;
+}
+
+main div {
+    border: 1px solid;
+    max-width: 90%;
+    margin: 10px auto;
+    border-radius: 4px;
+}
+
+#spotlight h3 {
+    border: 1px solid;
+    margin: 5px;
 }
