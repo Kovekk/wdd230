@@ -73,7 +73,7 @@ nav button {
 
 main div {
     border: 1px solid;
-    max-width: 90%;
+    width: 90%;
     margin: 10px auto;
     border-radius: 4px;
 }
@@ -81,4 +81,12 @@ main div {
 #spotlight h3 {
     border: 1px solid;
     margin: 5px;
+}
+
+#join {
+    display: none;
+}
+
+#spotlight h3:nth-child(3) {
+    display: none;
 }
