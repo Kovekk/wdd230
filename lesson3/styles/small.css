@@ -1,7 +1,8 @@
 header {
     display: flex;
-    background-color: #264965;
+    background-color: #a7c2da;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 header ul{
@@ -9,12 +10,12 @@ header ul{
     list-style-type: none;
     justify-content: right;
     padding-left: 0px;
+    margin: 0px;
 }
 
 header h1{
     font-size: 30px;
     padding: 10px;
-    color: white;
     text-align: center;
     max-width: fit-content;
 }
@@ -22,28 +23,26 @@ header h1{
 header img{
     width: 60px;
     height: 60px;
-    margin: 30px;
+    margin-left: 20px;
 }
 
 header ul img{
     width: 40px;
     height: 40px;
-    margin: 10px;
+    margin-right: 10px;
 }
 
-#nav a{
-    padding: 20px 10px;
+nav a{
+    padding: 0px 25%;
     text-decoration: none;
-    color: white;
+    color: black;
     font-size: 20px;
 }
 
-#nav a:hover{
-    color: #aac;
-}
-
-#nav li{
+nav li{
     text-align: center;
+    display: block;
+    margin: 10px;
 }
 
 body{
@@ -62,6 +61,19 @@ p{
 #social_media_links{
     margin-left: auto;
     margin-right: 10px;
+    order: 2;
+}
+
+nav {
+    order: 3;
+    margin: auto;
+    width: 90%
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
 }
 
 h2{
@@ -101,21 +113,18 @@ h3{
 }
 
 h1{
-    background-color: #264965;
-    color: white;
+    background-color: #a7c2da;
     margin: 0px;
     padding: 5px;
 }
 
 #primary-nav{
-    background-color: #264965;
-    color: white;
+    background-color: #a7c2da;
     font-size: 20px;
 }
 
 #footer-nav{
-    background-color: #264965;
-    color: white;
+    background-color: #a7c2da;
     font-size: 16px;
 }
 
@@ -127,8 +136,7 @@ h1{
 }
 
 footer{
-    background-color: #264965;
-    color: white;
+    background-color: #a7c2da;
     font-size: 16px;
     padding: 5px;
     text-align: center;
