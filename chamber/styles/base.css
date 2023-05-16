@@ -63,6 +63,10 @@ nav ul li a {
     border-top: 2px solid rgba(0,0,0,0.5);
 }
 
+nav ul li a:hover {
+    background-color: rgba(150,174,196,0.7);
+}
+
 nav button {
     display: block;
     margin-left: auto;
