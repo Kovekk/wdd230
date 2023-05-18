@@ -1,3 +1,7 @@
+body {
+    background-color: #E7E7E7;
+}
+
 /* styling the header content */
 
 header {
@@ -79,13 +83,26 @@ nav button {
 /* styling the main content */
 
 main div {
-    border: 1px solid;
+    border: 1px solid rgba(0,0,0,0.4);
     width: 90%;
     margin: 10px auto;
     border-radius: 4px;
+    background-color: white;
 }
 
-#spotlight h3 {
+#banner {
+    display: none;
+    background-color: #7c9dbb;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+}
+
+.show-banner#banner {
+    display: block;
+}
+
+#spotlight section {
     border: 1px solid;
     margin: 5px;
 }
@@ -94,8 +111,17 @@ main div {
     display: none;
 }
 
-#spotlight h3:nth-child(3) {
+#spotlight section:nth-child(3) {
     display: none;
+}
+
+#hero {
+    position: relative;
+}
+
+#hero h2 {
+    top: 20px;
+    left: 35pxx;
 }
 
 /* styling the footer content */
