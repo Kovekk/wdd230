@@ -75,7 +75,7 @@
     }
 
     #spotlight section:nth-child(3) {
-        display: block;
+        display: flex;
     }
 
     #main-info {
