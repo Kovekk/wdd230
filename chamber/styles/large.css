@@ -12,6 +12,10 @@
         justify-content: center;
     }
 
+    header img {
+        max-width: 200px;
+    }
+
     nav ul li a {
         border-top: none;
         padding: 5px 30px;
@@ -26,7 +30,7 @@
     }
 
     body {
-        max-width: 1100px;
+        max-width: 1600px;
         margin: auto;
     }
 
@@ -63,19 +67,25 @@
     #event {
         grid-row: 2;
         grid-column: 1;
-        width: 90%;
+        width: 97%;
         margin: 10px auto;
     }
 
     #weather {
         grid-row: 3;
         grid-column: 1;
-        width: 90%;
         margin: 10px auto;
+        width: 97%;
+        max-width: 100%;
     }
 
     #spotlight section:nth-child(3) {
         display: flex;
+    }
+    
+    #spotlight section:nth-child(3) img {
+        background-color: #137B7E;
+        padding: 5px;
     }
 
     #main-info {
@@ -89,5 +99,9 @@
 
     footer h2 {
         font-size: 30px;
+    }
+
+    footer img {
+        max-width: 270px;
     }
 }

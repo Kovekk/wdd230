@@ -130,6 +130,7 @@ main div {
 #weather {
     display: grid;
     grid-template-columns: 40% 60%;
+    max-width: 65%;
 }
 
 #weather h3 {
@@ -166,13 +167,14 @@ main div {
     bottom: 20px;
     right: 50px;
     border-style: none;
-    background-color: rgba(124, 157, 187, 0.7);
+    background-color: #044389;
+    color: white;
     padding: 15px 20px;
     border-radius: 4px;
 }
 
 #hero input:hover {
-    background-color: rgba(124, 157, 187, 1);
+    background-color: #396ba5;
 }
 
 #hero img {
@@ -212,7 +214,7 @@ footer {
 }
 
 footer img{
-    max-width: 250px;
+    max-width: 180px;
 }
 
 footer h2 {
