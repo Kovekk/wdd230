@@ -21,6 +21,7 @@
 
     main {
         display: grid;
+        grid-template-columns: 70% 30%;
     }
 
     #banner {
@@ -77,16 +78,19 @@
 
     #event {
         grid-row: 6;
-        width: 85%;
-        margin-left: 10%;
-        margin-right: 5%;
+        width: 95%;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
     #weather {
         grid-row: 6;
-        width: 85%;
-        margin-left: 5%;
-        margin-right: auto;
+        max-width: 92%;
+        margin-left: 2%;
+    }
+
+    #weather picture img {
+        width: 80%;
     }
 
     footer {

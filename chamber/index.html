@@ -19,12 +19,24 @@
         <header>
             <h1>Provo<br>Chamber of Commerce</h1>
             <picture>
-                <source srcset="images/Logo100.png" media="(min-width:600px) and (max-width: 899px)">
-                <source srcset="images/Logo200.png" media="(min-width: 900px)">
-                <img src="images/Logo70.png" alt="Provo Chamber city design logo">
+                <source srcset="images/Logo100.webp" media="(min-width:600px) and (max-width: 899px)">
+                <source srcset="images/Logo200.webp" media="(min-width: 900px)">
+                <img src="images/Logo70.webp" alt="Provo Chamber city design logo">
             </picture>
-            <a href="https://www.facebook.com" class="social-media"  id="first-social-media"><img src="images/FacebookLogo.png" alt="Facebook logo" class="social-media"></a>
-            <a href="https://twitter.com" class="social-media"><img src="images/TwitterLogo.png" alt="Twitter logo" class="social-media"></a>
+            <a href="https://www.facebook.com" class="social-media"  id="first-social-media">
+                <picture>
+                    <source srcset="images/FacebookLogo-40.png" media="(min-width:600px) and (max-width: 899px)">
+                    <source srcset="images/FacebookLogo-50.png" media="(min-width: 900px)">
+                    <img src="images/FacebookLogo-30.png" alt="Facebook logo">
+                </picture>
+            </a>
+            <a href="https://twitter.com" class="social-media">
+                <picture>
+                    <source srcset="images/TwitterLogo-40.png" media="(min-width:600px) and (max-width: 899px)">
+                    <source srcset="images/TwitterLogo-50.png" media="(min-width: 900px)">
+                    <img src="images/TwitterLogo-30.png" alt="Twitter logo">
+                </picture>
+            </a>
             <nav>
                 <button id="hamButton">&#9776;</button>
                 <ul class="" id="primaryNav">
@@ -43,7 +55,11 @@
             <div id="hero">
                 <h2>Welcome to Provo!</h2>
                 <input type="button" value="Join the Chamber">
-                <img src="images/placeholder.png" alt="provo city">
+                <picture>
+                    <source srcset="images/wdd230-880.jpg" media="(min-width:600px) and (max-width: 899px)">
+                    <source srcset="images/wdd230-780.jpg" media="(min-width: 900px)">
+                    <img src="images/wdd230-590.jpg" alt="small meeting of three people">
+                </picture>
             </div>
             <div id="event">
                 <h3>10 Year Anniversery!</h3>
@@ -54,10 +70,14 @@
             </div>
             <div id="weather">
                 <h3>Weather</h3>
-                <img src="images/placeholder.png" alt="weather symbol">
-                <h4>Sunny</h4>
-                <p>Wind Speed: 3 mph</p>
-                <p>Wind Chill: N/A</p>
+                <picture>
+                    <source srcset="images/rain-100.png" media="(min-width:600px) and (max-width: 899px)">
+                    <source srcset="images/rain-130.png" media="(min-width: 900px)">
+                    <img src="images/rain-140.png" alt="weather symbol">
+                </picture>
+                <h4>46&deg;F</h4>
+                <p id="windSpeed">Wind Speed: 16 mph</p>
+                <p id="windChill">Wind Chill: N/A</p>
             </div>
             <div id="news">
                 <h3>New Release</h3>
@@ -80,17 +100,29 @@
             <div id="spotlight">
                 <section>
                     <h3>Utah Valley Eye Center</h3>
-                    <img src="images/UVEClogo.png" alt="Utah Valley Eye Center Logo">
+                    <picture>
+                        <source srcset="images/UVEClogo-320.png" media="(min-width:600px) and (max-width: 899px)">
+                        <source srcset="images/UVEClogo-290.png" media="(min-width: 900px)">
+                        <img src="images/UVEClogo-430.png" alt="Utah Valley Eye Center logo">
+                    </picture>
                     <p>1+ (801) 357-7373 | <a href="https://utahvalleyeye.com">Website</a></p>
                 </section>
                 <section>
                     <h3>Chick-fil-A</h3>
-                    <img src="images/Chick-fil-A_Logo.svg.png" alt="Chick-fil-A logo">
+                    <picture>
+                        <source srcset="images/Chick-fil-A_Logo-320.png" media="(min-width:600px) and (max-width: 899px)">
+                        <source srcset="images/Chick-fil-A_Logo-290.png" media="(min-width: 900px)">
+                        <img src="images/Chick-fil-A_Logo-430.png" alt="Chick-fil-A logo">
+                    </picture>
                     <p>1+ (866) 232-2040 | <a href="https://www.chick-fil-a.com">Website</a></p>
                 </section>
                 <section>
                     <h3>Color Me Mine</h3>
-                    <img src="images/colorMeMineLogo.png" alt="color me mine logo">
+                    <picture>
+                        <source srcset="images/colorMeMineLogo-320.png" media="(min-width:600px) and (max-width: 899px)">
+                        <source srcset="images/colorMeMineLogo-290.png" media="(min-width: 900px)">
+                        <img src="images/colorMeMineLogo-430.png" alt="Color Me Mine logo">
+                    </picture>
                     <p>1+ (801) 434-4848 | <a href="https://provo.colormemine.com">Website</a></p>
                 </section>
 
@@ -99,9 +131,9 @@
         <footer>
             <div id="main-info">
                 <picture>
-                    <source srcset="images/Logo240.png" media="(min-width:600px) and (max-width: 899px)">
-                    <source srcset="images/Logo270.png" media="(min-width: 900px)">
-                    <img src="images/Logo180.png" alt="Provo Chamber city design logo">
+                    <source srcset="images/Logo240.webp" media="(min-width:600px) and (max-width: 899px)">
+                    <source srcset="images/Logo270.webp" media="(min-width: 900px)">
+                    <img src="images/Logo180.webp" alt="Provo Chamber city design logo">
                 </picture>
                 <h2>Provo Chamber of Commerce</h2>
                 <p>address line 1
@@ -123,5 +155,6 @@
         </footer>
 
         <script src="scripts/script.js"></script>
+        <script src="scripts/windchill.js"></script>
     </body>
 </html>

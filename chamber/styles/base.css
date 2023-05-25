@@ -129,7 +129,7 @@ main div {
 
 #weather {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 50% 50%;
     max-width: 65%;
 }
 
@@ -140,6 +140,7 @@ main div {
 
 #weather h4 {
     text-align: center;
+    font-size: 35px;
 }
 
 #weather p {
@@ -147,9 +148,13 @@ main div {
     margin: 5px auto;
 }
 
-#weather img {
-    width: 100%;
+#weather picture img {
+    width: 70%;
     grid-row: 2/3;
+}
+
+#weather picture {
+    margin: auto;
 }
 
 #hero {
