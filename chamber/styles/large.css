@@ -11,6 +11,10 @@
         display: flex;
         justify-content: center;
     }
+    
+    .social-media {
+        max-width: 50px;
+    }
 
     header img {
         max-width: 200px;
@@ -77,6 +81,10 @@
         margin: 10px auto;
         width: 97%;
         max-width: 100%;
+    }
+
+    #weather picture img {
+        width: 65%;
     }
 
     #spotlight section:nth-child(3) {
