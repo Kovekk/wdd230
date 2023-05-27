@@ -209,6 +209,12 @@ main div {
     margin: 7px;
 }
 
+picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* styling the footer content */
 
 footer {
