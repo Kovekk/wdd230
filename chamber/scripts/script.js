@@ -39,16 +39,17 @@ const currentYear = new Date().toLocaleString("en-US", {year: "numeric"});
 
 copyright.innerHTML = `&copy;${currentYear} Provo Chamber`
 
-// show banner on monday and tuesday only
+// using local storage to show how long it has been since the user last visited in days
 
-const banner = document.querySelector("#banner");
-console.log(new Date().getDay());
+const todaysDate = new Date();
+const lastVisited = new Date(localStorage.getItem("lastVisited"));
 
-switch (new Date().getDay()) {
-    case 1:
-    case 2:
-        banner.classList.toggle("show-banner");
+switch (lastVisited) {
+    case null:
+        localStorage.setItem("lastVisited", todaysDate);
         break;
     default:
-        break;
+        const daysSinceLastVisit = Math.floor((todaysDate - lastVisited) / (1000*60*60*24));
+        document.querySelector("#lastVisited").innerHTML = `You last visited ${daysSinceLastVisit} days ago`;
+        localStorage.setItem("lastVisited", todaysDate);
 }

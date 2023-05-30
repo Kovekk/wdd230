@@ -339,3 +339,13 @@ footer div {
     filter: blur(0em);
     transition: filter 0.5s;
 }
+
+#lastVisited {
+    width: 97%;
+    margin: 10px auto;
+    text-align: right;
+}
+
+#discover img:hover {
+    box-shadow: 0 0 15px #333;
+}
