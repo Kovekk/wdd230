@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Robert Lowry">
+        <meta name="description" content ="discover places in provo | wdd230 chamber of commerce assignment">
+
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Provo<br>Chamber of Commerce</h1>
+            <picture>
+                <source srcset="images/Logo100.webp" media="(min-width:600px) and (max-width: 899px)">
+                <source srcset="images/Logo200.webp" media="(min-width: 900px)">
+                <img src="images/Logo70.webp" alt="Provo Chamber city design logo">
+            </picture>
+            <a href="https://www.facebook.com" class="social-media"  id="first-social-media">
+                <picture>
+                    <source srcset="images/FacebookLogo-40.png" media="(min-width:600px) and (max-width: 899px)">
+                    <source srcset="images/FacebookLogo-50.png" media="(min-width: 900px)">
+                    <img src="images/FacebookLogo-30.png" alt="Facebook logo">
+                </picture>
+            </a>
+            <a href="https://twitter.com" class="social-media">
+                <picture>
+                    <source srcset="images/TwitterLogo-40.png" media="(min-width:600px) and (max-width: 899px)">
+                    <source srcset="images/TwitterLogo-50.png" media="(min-width: 900px)">
+                    <img src="images/TwitterLogo-30.png" alt="Twitter logo">
+                </picture>
+            </a>
+            <nav>
+                <button id="hamButton">&#9776;</button>
+                <ul class="" id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="">page 3</a></li>
+                    <li><a href="">page 4</a></li>
+                </ul>
+            </nav>
+            <p id="currentDate"></p>
+        </header>
+        <main id="discover">
+            <h2>Discover</h2>
+
+            <div>
+                <h3>Population</h3>
+                <picture>
+                    <source srcset="images/placeholder-465.jpg" data-srcset="images/crowd-465.jpg" media="(min-width: 900px)">
+                    <source srcset="images/placeholder-440.jpg" data-srcset="images/crowd-440.jpg" media="(min-width:600px) and (max-width: 899px)">
+                    <img src="images/placeholder-290.jpg" data-src="images/crowd-290.jpg" alt="crowd of people">
+                </picture>
+                <ul>
+                    <li>The population of Provo is at 114,084 people.</li>
+                    <li>The population is growing at a rate of 0.03% annually.</li>
+                    <li>There are 3 people per household on average.</li>
+                    <li>82% are members of The Church of Jesus Christ of Latter-Day Saints.</li>
+                </ul>
+                <p class="asterisk">*as of 2020</p>
+            </div>
+            
+            <div>
+                <h3>Workforce</h3>
+                <picture>
+                    <source srcset="images/placeholder-465.jpg" data-srcset="images/officeWorkers-465.jpg" media="(min-width: 900px)">
+                    <source srcset="images/placeholder-440.jpg" data-srcset="images/officeWorkers-440.jpg" media="(min-width:600px) and (max-width: 899px)">
+                    <img src="images/placeholder-290.jpg" data-src="images/officeWorkers-290.jpg" alt="workers in office">
+                </picture>
+                <ul>
+                    <li>The average household income is $76,163.</li>
+                    <li>6.52% of the Provo workforce is self employed.</li>
+                    <li>About 84% of the jobs in Provo are white collar.</li>
+                    <li>The other 16% are blue collar jobs.</li>
+                </ul>
+                <p class="asterisk">*as of 2020</p>
+            </div>
+            
+            <div id="education">
+                <h3>Education</h3>
+                <picture>
+                    <source srcset="images/placeholder-465.jpg" data-srcset="images/graduating-465.jpg" media="(min-width: 900px)">
+                    <source srcset="images/placeholder-440.jpg" data-srcset="images/graduating-440.jpg" media="(min-width:600px) and (max-width: 899px)">
+                    <img src="images/placeholder-290.jpg" data-src="images/graduating-290.jpg" alt="students graudating">
+                </picture>
+                <section>
+                    <h4>Percentage of people based on highest education level.</h4>
+                    <ul>
+                        <li>
+                            <p>No high school diploma</p>
+                            <p>2%</p>
+                        </li>
+                        <li>
+                            <p>High school diploma</p>
+                            <p>16.78%</p>
+                        </li>
+                        <li>
+                            <p>Some college experience</p>
+                            <p>45.43%</p>
+                        </li>
+                        <li>
+                            <p>Associates degree</p>
+                            <p>8.53%</p>
+                        </li>
+                        <li>
+                            <p>Bachelor's degree</p>
+                            <p>20.41%</p>
+                        </li>
+                        <li>
+                            <p>Graduate degree</p>
+                            <p>6.85%</p>
+                        </li>
+                    </ul>
+                </section>
+                <p class="asterisk">*as of 2020</p>
+            </div>
+            
+            <div>
+                <h3>Diversity</h3>
+                <picture>
+                    <source srcset="images/placeholder-465.jpg" data-srcset="images/diversity-465.jpg" media="(min-width: 900px)">
+                    <source srcset="images/placeholder-440.jpg" data-srcset="images/diversity-440.jpg" media="(min-width:600px) and (max-width: 899px)">
+                    <img src="images/placeholder-290.jpg" data-src="images/diversity-290.jpg" alt="diverse people standing together">
+                </picture>
+                <ul>
+                    <li>17.7% are Hispanic</li>
+                    <li>2.75% are Asian</li>
+                    <li>1% are Native American</li>
+                    <li>72.9% are White</li>
+                </ul>
+                <p class="asterisk">*as of 2020</p>
+            </div>
+            
+            <div>
+                <h3>Marital Status</h3>
+                <picture>
+                    <source srcset="images/placeholder-440.jpg" data-srcset="images/family-440.jpg" media="(min-width:600px) and (max-width: 899px)">
+                    <source srcset="images/placeholder-465.jpg" data-srcset="images/family-465.jpg" media="(min-width: 900px)">
+                    <img src="images/placeholder-290.jpg" data-src="images/family-290.jpg" alt="family with small child">
+                </picture>
+                <ul>
+                    <li>48.84% of Provo residents have never married</li>
+                    <li>44.65% of Provo residents are married</li>
+                    <li>0.87% have seperated</li>
+                    <li>2.24% have been widowed</li>
+                    <li>4.27% have gotten a divorce</li>
+                </ul>
+                <p class="asterisk">*as of 2020</p>
+            </div>
+        </main>
+        <footer>
+            <div id="main-info">
+                <picture>
+                    <source srcset="images/Logo240.webp" media="(min-width:600px) and (max-width: 899px)">
+                    <source srcset="images/Logo270.webp" media="(min-width: 900px)">
+                    <img src="images/Logo180.webp" alt="Provo Chamber city design logo">
+                </picture>
+                <h2>Provo Chamber of Commerce</h2>
+                <p>address line 1
+                    <br>address line 2
+                </p>
+            </div>
+            <div id="secondary-info">
+                <p>chamber@provo.org</p>
+                <p>+1 (801) 123-4567</p>
+                <a href="https://www.google.com/maps/place/466+W+4800+N,+Provo,+UT+84604/@40.2981684,-111.6648814,18.5z/data=!4m6!3m5!1s0x874d90098b16208b:0x24422afe68b9baf9!8m2!3d40.2982581!4d-111.6651829!16s%2Fg%2F11nm_r7dlm">
+                    &#128205; Location Map</a>
+            </div>
+            <div id="class-info">
+                <p id="copyright"></p>
+                <h3>Robert Lowry</h3>
+                <p>WDD 230 Project</p>
+                <p id="lastModified"></p>
+            </div>
+        </footer>
+
+        <script src="scripts/script.js"></script>
+        <script src="scripts/lazyload.js"></script>
+    </body>
+</html>
