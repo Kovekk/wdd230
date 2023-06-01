@@ -349,3 +349,21 @@ footer div {
 #discover img:hover {
     box-shadow: 0 0 15px #333;
 }
+
+/* styling the join page */
+
+form input:invalid {
+    background: pink;
+}
+
+form label.top {
+    display: block;
+}
+
+form label.top input {
+    display: block;
+}
+
+form label.sbs {
+    display: block;
+}
