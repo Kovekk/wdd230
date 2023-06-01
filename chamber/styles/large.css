@@ -134,4 +134,30 @@
 
         margin: 0px;
     }
+
+    /* styling join page for large screens */
+
+    main form {
+        width: 60%;
+    }
+
+    form label.top {
+        font-size: 16px;
+    }
+    
+    form label.top input {
+        padding: 1.25%;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    form label.submitBtn input {
+        padding: 1.5%;
+        width: 35%;
+        font-size: 19px;
+    }
+
+    form label.sbs {
+        padding: 8px;
+    }
 }

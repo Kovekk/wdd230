@@ -140,4 +140,11 @@
         font-size: 25px;
     }
 
+    /* styling medium screen size for join page */
+
+    main form {
+        grid-column: 1/3;
+        width: 80%;
+    }
+
 }
