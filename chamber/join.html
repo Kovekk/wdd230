@@ -52,21 +52,22 @@
         </header>
         <main>
             <form method="get" action="thankyou.html">
-                <label class="top">First Name* <input type="text" name="fname" required></label>
+                <h2>Personal/Business Information</h2>
+                <label class="top">First Name* <input type="text" name="fname" required autofocus></label>
                 <label class="top">Last Name* <input type="text" name="lname" required></label>
                 <label class="top">Business Position <input type="text" name="businessPosition" pattern="[A-Za-z0-9\-\s]{7,}"></label>
                 <label class="top">Email* <input type="email" name="email" required placeholder="email@example.com"></label>
                 <label class="top">Cell Number* <input type="tel" name="tel" required placeholder="1235551234"></label>
                 <label class="top">Business Name* <input type="text" name="businessName" requried></label>
+                <label class="top">Business Description<textarea name="businessDescription" rows="10"></textarea></label>
 
+                <h2>Membership Level</h2>
                 <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
                 <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
-
-                <label class="top">Business Description<textarea name="businessDescription" rows="10"></textarea></label>
                 <label><input type="hidden" name="dateTime"></label>
-                <label class="submitBtn"><input type="submit" name="submit" value="Join the Chamer!"></label>
+                <label class="submitBtn"><input type="submit" name="submit" value="Join the Chamber!"></label>
             </form>
         </main>
         <footer>

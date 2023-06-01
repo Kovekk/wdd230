@@ -83,7 +83,7 @@ nav button {
 
 /* styling the main content */
 
-main div {
+main div, main form {
     border: 1px solid rgba(0,0,0,0.4);
     width: 97%;
     margin: 10px auto;
@@ -352,18 +352,47 @@ footer div {
 
 /* styling the join page */
 
-form input:invalid {
-    background: pink;
-}
-
 form label.top {
     display: block;
+    margin: 5%;
+    font-size: 14px;
 }
+
 
 form label.top input {
     display: block;
+    margin: 0 auto 15px 0;
+    width: 94%;
+    font-size: 17px;
+    padding: 3%;
+    border-radius: 15px;
+}
+
+form label.top textarea {
+    display: block;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 15px;
 }
 
 form label.sbs {
     display: block;
+    margin: 0 auto 0 auto;
+    margin: 0 5%;
+    padding: 15px 0;
+}
+
+form h2 {
+    font-size: 20px;
+    margin: 4%;
+}
+
+form label.submitBtn input {
+    width: 91%;
+    padding: 3%;
+    margin: 4%;
+    border-radius: 7px;
+    border-style: none;
+    background-color: #044389;
+    color: white;
 }
