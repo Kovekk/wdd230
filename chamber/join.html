@@ -58,20 +58,22 @@
                 <label class="top">Business Position <input type="text" name="businessPosition" pattern="[A-Za-z0-9\-\s]{7,}"></label>
                 <label class="top">Email* <input type="email" name="email" required placeholder="email@example.com"></label>
                 <label class="top">Cell Number* <input type="tel" name="tel" required placeholder="1235551234"></label>
-                <label class="top">Business Name* <input type="text" name="businessName" requried></label>
+                <label class="top">Business Name* <input type="text" name="businessName" required></label>
                 <label class="top">Business Description<textarea name="businessDescription" rows="10"></textarea></label>
 
                 <h2>Membership Level</h2>
-                <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership</label>
-                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
-                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
-                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
-                <label><input type="hidden" name="dateTime"></label>
-                <label class="submitBtn"><input type="submit" name="submit" value="Join the Chamber!"></label>
+                <fieldset>
+                    <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+                </fieldset>
+                <input type="hidden" name="dateTime">
+                <input type="submit" name="submit" value="Join the Chamber!" class="submitBtn">
             </form>
             <table>
                 <tr>
-                    <th></th>
+                    <th>Features</th>
                     <th>Bronze</th>
                     <th>Silver</th>
                     <th>Gold</th>

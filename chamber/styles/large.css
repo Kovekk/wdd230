@@ -156,7 +156,7 @@
         font-size: 17px;
     }
 
-    form label.submitBtn input {
+    form input.submitBtn {
         padding: 1.5%;
         width: 35%;
         min-width: 190px;
@@ -186,6 +186,7 @@
     
     table th:first-child {
         background-color: #E7E7E7;
+        color: #E7E7E7;
         border-top: none;
         border-left: none;
         border-bottom: solid 1px #c9c9c9;
@@ -204,7 +205,7 @@
     }
 
     .checked {
-        color: #0db41b;
+        color: #065A0D;
         font-size: 20px;
     }
     
