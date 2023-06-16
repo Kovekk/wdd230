@@ -396,3 +396,18 @@ form label.submitBtn input {
     background-color: #044389;
     color: white;
 }
+
+/* Styling the thank you page */
+
+#thankYou {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+}

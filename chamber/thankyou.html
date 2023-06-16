@@ -2,11 +2,11 @@
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
+        <meta name="Author" content="Robert Lowry">
+        <meta name="description" content="Thank you page for the membership form">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Robert Lowry">
-        <meta name="description" content ="Join the chamber | wdd230 chamber of commerce assignment">
 
-        <title>Provo Chamber | Join</title>
+        <title>Provo Chamber | Form Complete</title>
 
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="stylesheet" href="styles/normalize.css">
@@ -50,62 +50,9 @@
             </nav>
             <p id="currentDate"></p>
         </header>
-        <main>
-            <form method="get" action="thankyou.html">
-                <h2>Personal/Business Information</h2>
-                <label class="top">First Name* <input type="text" name="fname" required autofocus></label>
-                <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Business Position <input type="text" name="businessPosition" pattern="[A-Za-z0-9\-\s]{7,}"></label>
-                <label class="top">Email* <input type="email" name="email" required placeholder="email@example.com"></label>
-                <label class="top">Cell Number* <input type="tel" name="tel" required placeholder="1235551234"></label>
-                <label class="top">Business Name* <input type="text" name="businessName" requried></label>
-                <label class="top">Business Description<textarea name="businessDescription" rows="10"></textarea></label>
-
-                <h2>Membership Level</h2>
-                <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership</label>
-                <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
-                <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
-                <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
-                <label><input type="hidden" name="dateTime"></label>
-                <label class="submitBtn"><input type="submit" name="submit" value="Join the Chamber!"></label>
-            </form>
-            <table>
-                <tr>
-                    <th>Features</th>
-                    <th>Bronze</th>
-                    <th>Silver</th>
-                    <th>Gold</th>
-                    <th>NP</th>
-                </tr>
-                <tr>
-                    <td>Events</td>
-                    <td>V</td>
-                    <td>V</td>
-                    <td>V</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <td>Training</td>
-                    <td>V</td>
-                    <td>V</td>
-                    <td>V</td>
-                    <td>V</td>
-                </tr>
-                <tr>
-                    <td>Discounted Training</td>
-                    <td>X</td>
-                    <td>V</td>
-                    <td>V</td>
-                    <td>V</td>
-                </tr>
-                <tr>
-                    <td>Home Page Highlights</td>
-                    <td>X</td>
-                    <td>X</td>
-                    <td>V</td>
-                    <td>V</td>
-                </tr>
-            </table>
+        <main id="thankYou">
+            <h2>Form completed</h2>
+            <p>Thank you for submitting your request! We will get back to you shortly.</p>
         </main>
         <footer>
             <div id="main-info">
