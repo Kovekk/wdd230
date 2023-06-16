@@ -397,6 +397,10 @@ form label.submitBtn input {
     color: white;
 }
 
+table {
+    display: none;
+}
+
 /* Styling the thank you page */
 
 #thankYou {

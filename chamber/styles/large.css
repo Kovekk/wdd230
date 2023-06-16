@@ -137,8 +137,13 @@
 
     /* styling join page for large screens */
 
+    #joinPage {
+        grid-template-columns: 50% 50%;
+    }
+
     main form {
-        width: 60%;
+        width: 80%;
+        grid-column: 1;
     }
 
     form label.top {
@@ -148,16 +153,63 @@
     form label.top input {
         padding: 1.25%;
         border-radius: 10px;
-        font-size: 20px;
+        font-size: 17px;
     }
 
     form label.submitBtn input {
         padding: 1.5%;
         width: 35%;
+        min-width: 190px;
         font-size: 19px;
     }
 
     form label.sbs {
         padding: 8px;
+    }
+
+    table {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        margin-bottom: 80px;
+        border-collapse: collapse;
+        margin-right: 10px;
+    }
+
+    table th {
+        font-size: 20px;
+        border: solid 1px #4d4d4d;
+        background-color: #044389;
+        color: white;
+        padding: 15px;
+    }
+    
+    table th:first-child {
+        background-color: #E7E7E7;
+        border-top: none;
+        border-left: none;
+        border-bottom: solid 1px #c9c9c9;
+    }
+    
+    table td {
+        font-size: 18px;
+        font-weight: bold;
+        border: solid 1px #c9c9c9;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    table tr:nth-child(odd) {
+        background-color: #ebebeb;
+    }
+
+    .checked {
+        color: #0db41b;
+        font-size: 20px;
+    }
+    
+    .notChecked {
+        color: #f01212;
+        font-size: 20px;
     }
 }
