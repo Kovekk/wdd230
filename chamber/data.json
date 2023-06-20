@@ -1,0 +1,76 @@
+{
+    "directory": [
+        {
+            "name": "Circles",
+            "address": "815 S Freedom Blvd, Provo, UT 84601",
+            "number": "801-373-8200",
+            "website": "www.communityactionprovo.org/circles",
+            "filename": "",
+            "membership-level": "np"
+        },
+        {
+            "name": "Live Your Dream Foundation",
+            "address": "3651 N 100 E St #275, Provo, UT 84604",
+            "number": "801-357-2500",
+            "website": "www.liveyourdreamfoundation.org",
+            "filename": "",
+            "membership-level": "np"
+        },
+        {
+            "name": "The Startup Building",
+            "address": "100 W 560 S St, Provo UT 84601",
+            "number": "385-236-3061",
+            "website": "www.thestartupbuilding.co",
+            "filename": "",
+            "membership-level": "bronze"
+        },
+        {
+            "name": "Hruska's Kolaches",
+            "address": "434 W Center St, Provo UT 84601",
+            "number": "801-623-3578",
+            "website": "hruskaskolaches.com",
+            "filename": "",
+            "membership-level": "gold"
+        },
+        {
+            "name": "The Soap Factory",
+            "address": "54 W Center St, Provo UT 84601",
+            "number": "385-309-3219",
+            "website": "thesoapfactory.business.site",
+            "filename": "",
+            "membership-level": "silver"
+        },
+        {
+            "name": "Color Me Mine",
+            "address": "5033 N Edgewood Dr #40, Provo UT 84604",
+            "number": "801-434-4848",
+            "website": "provo.colermemine.com",
+            "filename": "",
+            "membership-level": "gold"
+        },
+        {
+            "name": "Dry Bar Comedy",
+            "address": "295 W Center St, Provo UT 84601",
+            "number": "NA",
+            "website": "www.drybarcomedy.com",
+            "filename": "",
+            "membership-level": "gold"
+        },
+        {
+            "name": "Dragons Keep",
+            "address": "260 N University Ave, Provo UT 84601",
+            "number": "801-373-3482",
+            "website": "www.dragonskeep.com",
+            "filename": "",
+            "membership-level": "bronze"
+        },
+        {
+            "name": "Chick-fil-A",
+            "address": "484 Cougar Blvd, Provo UT 84604",
+            "number": "NA",
+            "website": "www.chick-fil-a.com/locations/ut/cougar-state",
+            "filename": "",
+            "membership-level": "gold"
+        }
+    ]
+}
