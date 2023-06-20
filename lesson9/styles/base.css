@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+}
+
+div {
+    background-color: #DDDDDD;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    padding: 20px;
+    box-shadow: 0 0 20px #333;
+    width: 95%;
+    margin: auto;
+}
+
+section {
+    margin: 0 auto 5px auto;
+    background-color: #B9B9CC;
+    border: 1px solid #525298;
+    width: 300px;
+}
+
+section p {
+    font-size: 20px;
+}
+
+section h2 {
+    font-size: 28px;
+}
+
+img {
+    margin-bottom: 10px;
+    box-shadow: 0 0 15px #333;
+}
+
+h1 {
+    color: #525298;
+}
