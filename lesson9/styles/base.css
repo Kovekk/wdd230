@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 div {
@@ -34,4 +35,8 @@ img {
 
 h1 {
     color: #525298;
+}
+
+h2 {
+    color: #393963;
 }
