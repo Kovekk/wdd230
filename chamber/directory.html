@@ -18,16 +18,43 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h2>Directory</h2>
-        <section class="gridView" id="directory">
-            <div>
-                <img src="images/placeholder.png">
-                <h3>Circles</h3>
-                <p>815 S Freedom Blvd, Provo UT 84601</p>
-                <p>801-373-8200</p>
-                <p>www.communityactionprovo.org/circles</p>
-                <p>membership level: NP</p>
-            </div>
-        </section>
+        <header>
+            <h1>Provo<br>Chamber of Commerce</h1>
+            <picture>
+                <source srcset="images/Logo100.webp" media="(min-width:600px) and (max-width: 899px)">
+                <source srcset="images/Logo200.webp" media="(min-width: 900px)">
+                <img src="images/Logo70.webp" alt="Provo Chamber city design logo">
+            </picture>
+            <a href="https://www.facebook.com" class="social-media"  id="first-social-media">
+                <picture>
+                    <source srcset="images/FacebookLogo-40.png" media="(min-width:600px) and (max-width: 899px)">
+                    <source srcset="images/FacebookLogo-50.png" media="(min-width: 900px)">
+                    <img src="images/FacebookLogo-30.png" alt="Facebook logo">
+                </picture>
+            </a>
+            <a href="https://twitter.com" class="social-media">
+                <picture>
+                    <source srcset="images/TwitterLogo-40.png" media="(min-width:600px) and (max-width: 899px)">
+                    <source srcset="images/TwitterLogo-50.png" media="(min-width: 900px)">
+                    <img src="images/TwitterLogo-30.png" alt="Twitter logo">
+                </picture>
+            </a>
+            <nav>
+                <button id="hamButton">&#9776;</button>
+                <ul class="" id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="join.html">Join Us</a></li>
+                    <li><a href="">page 4</a></li>
+                </ul>
+            </nav>
+            <p id="currentDate"></p>
+        </header>
+        <main id="businessDirectory">
+            <h2>Directory</h2>
+            <section class="gridView" id="directory"></section>
+
+            <script src="scripts/directory.js"></script>
+        </main>
     </body>
 </html>

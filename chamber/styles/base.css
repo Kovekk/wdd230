@@ -415,3 +415,13 @@ table {
     border: 1px solid rgba(0,0,0,0.4);
     margin-bottom: 10px;
 }
+
+/* Styling the directory page */
+
+#businessDirectory {
+    text-align: center;
+}
+
+#directory img {
+    max-width: 250px;
+}
