@@ -42,3 +42,14 @@ function displayData(directory) {
 }
 
 getData();
+
+// creating the function that will switch between grid view and list view
+
+function toggleView() {
+    const page = document.querySelector("#directory");
+    page.classList.toggle("gridView");
+    page.classList.toggle("listView");
+}
+
+const button = document.querySelector("#toggleView");
+button.addEventListener("click", toggleView);

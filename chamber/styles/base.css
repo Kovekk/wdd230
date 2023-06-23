@@ -420,8 +420,80 @@ table {
 
 #businessDirectory {
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-#directory img {
+.gridView img {
     max-width: 250px;
+    margin-top: 20px;
+    align-self: center;
+}
+
+.gridView div {
+    max-width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.gridView p {
+    font-size: 14px;
+    margin: 5px auto;
+}
+
+.gridView h3 {
+    font-size: 16px;
+    margin: 8px auto;
+}
+
+.listView img {
+    display: none;
+}
+
+.listView div p:nth-child(3), .listView div p:nth-child(4), .listView div p:nth-child(6) {
+    display: none;
+}
+
+.listView div p, .listView div h3 {
+    margin: 10px 10px;
+    text-align: left;
+}
+
+.listView div p {
+    font-size: 14px;
+}
+
+.listView div h3 {
+    font-size: 16px;
+}
+
+.listView div {
+    margin: 0px auto;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+}
+
+.listView div:last-child {
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+    margin-bottom: 15px;
+}
+
+.listView div:nth-child(even) {
+    background-color: #f0fbff;
+}
+
+#businessDirectory input {
+    font-size: 16px;
+    border-radius: 7px;
+    border-style: none;
+    background-color: #044389;
+    color: white;
+    padding: 10px;
+    margin: 10px 1.5% 10px auto;
+}
+
+#businessDirectory input:hover {
+    background-color: #396ba5;
 }

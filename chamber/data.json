@@ -51,7 +51,7 @@
         {
             "name": "Dry Bar Comedy",
             "address": "295 W Center St, Provo UT 84601",
-            "number": "NA",
+            "number": "",
             "website": "www.drybarcomedy.com",
             "filename": "images/dryBarLogo-250.jpg",
             "membershiplevel": "gold"
@@ -67,7 +67,7 @@
         {
             "name": "Chick-fil-A",
             "address": "484 Cougar Blvd, Provo UT 84604",
-            "number": "NA",
+            "number": "",
             "website": "www.chick-fil-a.com/locations/ut/cougar-state",
             "filename": "images/chickfilaLogo-250.png",
             "membershiplevel": "gold"

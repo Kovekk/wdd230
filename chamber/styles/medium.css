@@ -147,4 +147,34 @@
         width: 80%;
     }
 
+    .gridView {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
+    }
+
+    .gridView h3 {
+        font-size: 19px;
+    }
+
+    #businessDirectory {
+        grid-template-columns: auto;
+    }
+
+    .listView div {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .listView div p:nth-child(3), .listView div p:nth-child(4) {
+        display: block;
+        text-align: right;
+    }
+
+    .listView div p:nth-child(4) {
+        grid-column: 2;
+    }
+
+    .listView div p:nth-child(5) {
+        grid-row: 2;
+    }
 }

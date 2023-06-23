@@ -45,16 +45,42 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="discover.html">Discover</a></li>
                     <li><a href="join.html">Join Us</a></li>
-                    <li><a href="">page 4</a></li>
+                    <li><a href="directory.html">Directory</a></li>
                 </ul>
             </nav>
             <p id="currentDate"></p>
         </header>
         <main id="businessDirectory">
             <h2>Directory</h2>
+            <input type="button" id="toggleView" value="Toggle View">
             <section class="gridView" id="directory"></section>
-
-            <script src="scripts/directory.js"></script>
         </main>
+        <footer>
+            <div id="main-info">
+                <picture>
+                    <source srcset="images/Logo240.webp" media="(min-width:600px) and (max-width: 899px)">
+                    <source srcset="images/Logo270.webp" media="(min-width: 900px)">
+                    <img src="images/Logo180.webp" alt="Provo Chamber city design logo">
+                </picture>
+                <h2>Provo Chamber of Commerce</h2>
+                <p>address line 1
+                    <br>address line 2
+                </p>
+            </div>
+            <div id="secondary-info">
+                <p>chamber@provo.org</p>
+                <p>+1 (801) 123-4567</p>
+                <a href="https://www.google.com/maps/place/466+W+4800+N,+Provo,+UT+84604/@40.2981684,-111.6648814,18.5z/data=!4m6!3m5!1s0x874d90098b16208b:0x24422afe68b9baf9!8m2!3d40.2982581!4d-111.6651829!16s%2Fg%2F11nm_r7dlm">
+                    &#128205; Location Map</a>
+            </div>
+            <div id="class-info">
+                <p id="copyright"></p>
+                <h3>Robert Lowry</h3>
+                <p>WDD 230 Project</p>
+                <p id="lastModified"></p>
+            </div>
+        </footer>
+
+        <script src="scripts/directory.js"></script>
     </body>
 </html>
