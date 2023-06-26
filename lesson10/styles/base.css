@@ -1,0 +1,9 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    width: 545px;
+    margin: 10px auto;
+    box-shadow: 0 0 15px #302c35;
+    border-radius: 5px;
+    padding: 10px 0;
+}
