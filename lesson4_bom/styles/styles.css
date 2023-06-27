@@ -58,6 +58,15 @@ li {
 	justify-content: space-between;
 }
 
+main p {
+	display: none;
+}
+
+.noEntry {
+	color: rgb(243, 12, 12);
+	display: block;
+}
+
 @media only screen and (min-width: 32.5em) {
 	h1 {
 		font-size: 2rem;
