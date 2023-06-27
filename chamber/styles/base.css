@@ -354,10 +354,6 @@ footer div {
     text-align: right;
 }
 
-#discover img:hover {
-    box-shadow: 0 0 15px #333;
-}
-
 /* styling the join page */
 
 form label.top {
