@@ -70,12 +70,9 @@
             </div>
             <div id="weather">
                 <h3>Weather</h3>
-                <picture>
-                    <source srcset="images/rain-100.png" media="(min-width:600px) and (max-width: 899px)">
-                    <source srcset="images/rain-130.png" media="(min-width: 900px)">
-                    <img src="images/rain-140.png" alt="weather symbol">
-                </picture>
-                <h4>46&deg;F</h4>
+                <img src="images/rain-140.png" alt="weather symbol" id="weatherSymbol">
+                <h4 id="temp">46&deg;F</h4>
+                <p id="weatherDesc">Rainy</p>
                 <p id="windSpeed">Wind Speed: 16 mph</p>
                 <p id="windChill">Wind Chill: N/A</p>
             </div>
@@ -157,5 +154,6 @@
         <script src="scripts/script.js"></script>
         <script src="scripts/windchill.js"></script>
         <script src="scripts/banner.js"></script>
+        <script src="scripts/weatherapi.js"></script>
     </body>
 </html>

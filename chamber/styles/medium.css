@@ -21,7 +21,7 @@
 
     main {
         display: grid;
-        grid-template-columns: 70% 30%;
+        grid-template-columns: 60% 40%;
     }
 
     #banner {
@@ -89,8 +89,12 @@
         margin-left: 2%;
     }
 
-    #weather picture img {
+    #weather img {
         width: 80%;
+    }
+
+    #weather h4 {
+        margin: 10px auto;
     }
 
     footer {
