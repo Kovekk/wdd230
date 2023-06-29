@@ -90,11 +90,6 @@
     #spotlight section:nth-child(3) {
         display: flex;
     }
-    
-    #spotlight section:nth-child(3) img {
-        background-color: #137B7E;
-        padding: 5px;
-    }
 
     #main-info {
         grid-template-columns: 250px 300px;
