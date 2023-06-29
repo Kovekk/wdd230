@@ -213,4 +213,19 @@
         color: #f01212;
         font-size: 20px;
     }
+
+    #contact {
+        grid-template-columns: auto auto;
+    }
+
+    #contactInfo {
+        grid-column: 2/3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #contact form {
+        grid-row: 1;
+    }
 }

@@ -14,7 +14,7 @@ function displayData(directory) {
         const name = document.createElement("h3");
         const address = document.createElement("p");
         const number = document.createElement("p");
-        const website = document.createElement("p");
+        const website = document.createElement("a");
         const membershipLevel = document.createElement("p");
         const image = document.createElement("img");
 
@@ -22,7 +22,8 @@ function displayData(directory) {
         name.textContent = company.name;
         address.textContent = company.address;
         number.textContent = company.number;
-        website.textContent = company.website;
+        website.textContent = "Website";
+        website.setAttribute("href", `${company.website}`);
         membershipLevel.textContent = company.membershiplevel;
 
         // adding attributes to img
