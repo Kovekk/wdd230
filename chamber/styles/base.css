@@ -171,11 +171,10 @@ main div, main form {
 
 #hero h2 {
     position: absolute;
-    top: 20px;
-    left: 50px;
+    left: 90px;
 }
 
-#hero input {
+#hero a {
     position: absolute;
     bottom: 20px;
     right: 50px;
@@ -184,9 +183,10 @@ main div, main form {
     color: white;
     padding: 15px 20px;
     border-radius: 4px;
+    text-decoration: none;
 }
 
-#hero input:hover {
+#hero a:hover {
     background-color: #396ba5;
 }
 

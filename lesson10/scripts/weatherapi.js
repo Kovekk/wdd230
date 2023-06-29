@@ -1,7 +1,9 @@
 // select HTML elements in the document
 const currentTemp = document.querySelector('#current-temp');
-const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+const weatherIcon = document.createElement("img");
+weatherIcon.setAttribute('id', '#weather-icon');
+const captionDesc = document.createElement('figcaption');
+const figure = document.querySelector('figure');
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Provo&units=imperial&appid=240533739ba10554329c7aebc9cdaab7';
 
@@ -28,7 +30,10 @@ async function apiFetch() {
 
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
-    captionDesc.textContent = desc;
+    captionDesc.innerHTML = desc;
+
+    figure.appendChild(weatherIcon);
+    figure.appendChild(captionDesc);
   }
   
   apiFetch();

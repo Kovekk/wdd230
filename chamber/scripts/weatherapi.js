@@ -16,11 +16,17 @@ async function apiFetch() {
   
 function displayResults(weatherData) {
     // getting the html elements
-    const weatherSymbol = document.querySelector("#weatherSymbol");
-    const temp = document.querySelector("#temp");
-    const weatherDesc = document.querySelector("#weatherDesc");
-    const windSpeed = document.querySelector("#windSpeed");
-    const windChill = document.querySelector("#windChill");
+    const weatherDiv = document.querySelector("#weather");
+    const weatherSymbol = document.createElement("img");
+    weatherSymbol.setAttribute("id", "weatherSymbol");
+    const temp = document.createElement("h4");
+    temp.setAttribute("id", "#temp");
+    const weatherDesc = document.createElement("p");
+    weatherDesc.setAttribute("id", "#weatherDesc");
+    const windSpeed = document.createElement("p");
+    windSpeed.setAttribute("id", "#windSpeed");
+    const windChill = document.createElement("p");
+    windChill.setAttribute("id", "#windChill");
 
     const currentTemp = weatherData.main.temp.toFixed(0);
     const windSpeedNum = weatherData.wind.speed;
@@ -37,6 +43,12 @@ function displayResults(weatherData) {
     } else {
       windChill.textContent = "N/A";
     }
+
+    weatherDiv.appendChild(weatherSymbol);
+    weatherDiv.appendChild(temp);
+    weatherDiv.appendChild(weatherDesc);
+    weatherDiv.appendChild(windSpeed);
+    weatherDiv.appendChild(windChill);
 }
 
   apiFetch();
