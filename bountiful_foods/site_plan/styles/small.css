@@ -1,0 +1,36 @@
+nav {
+    align-self: flex-end;
+    width: 100%;
+}
+
+nav ul {
+    /* display: none; */
+    list-style-type: none;
+    padding: 0px;
+    margin: auto;
+}
+
+nav ul.active {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 25px 20px;
+    border-top: 2px solid rgba(0,0,0,0.5);
+}
+
+nav ul li a:hover {
+    background-color: rgba(150,174,196,0.7);
+}
+
+nav button {
+    display: block;
+    margin-left: auto;
+    font-size: 30px;
+    border-style: none;
+    background-color: #a7c2da;
+    padding: 15px;
+}
