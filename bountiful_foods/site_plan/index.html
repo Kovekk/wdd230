@@ -10,19 +10,23 @@
         <link rel="stylesheet" href="styles/small.css">
         <link rel="stylesheet" href="styles/medium.css">
         <link rel="stylesheet" href="styles/large.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,800&family=Heebo&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
             <h1>Bountiful<br>Foods</h1>
             <nav>
+                <button id="hamButton">&#9776;</button>
                 <ul>
-                    <li><a href="index.html">Site Purpose</a></li>
+                    <li class="current_page"><a href="index.html">Site Plan</a></li>
                     <li><a href="target_audience.html">Target Audience</a></li>
                     <li><a href="design.html">Design</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
+        <main id="site_plan">
             <h2>Site Purpose</h2>
             <p>
                 The purpose of this site is to allow potential customers to gain 
@@ -35,10 +39,36 @@
                 those seeking it out. Contact information will also be provided to 
                 help answer questions from customers.
             </p>
-            <h2>Site Map</h2>
-            <img src="images/site_map.webp" alt="site map" loading="lazy">
-            <h2>Wireframe Sketch</h2>
-            <img src="images/home_page_wireframe.webp" alt="home page wireframe" loading="lazy">
+            <div>
+                <h2>Site Map</h2>
+               <picture>
+                    <source srcset="images/site_map-650.webp" media="(min-width: 600px)">
+                    <img src="images/site_map-550.webp" alt="Provo Chamber city design logo">
+                </picture>
+            </div>
+            <div id="large_wireframe">
+                <h2>Large Home Page Wireframe Sketch</h2>
+                <picture>
+                    <source srcset="images/home_page_wireframe-650.webp" media="(min-width: 600px)">
+                    <img src="images/home_page_wireframe-550.webp" alt="Provo Chamber city design logo">
+                </picture>
+            </div>
+            <div id="medium_wireframe">
+                <h2>Medium Home Page Wireframe Sketch</h2>
+                <picture>
+                    <source srcset="images/wireframe-medium-650.png" media="(min-width: 600px)">
+                    <img src="images/wireframe-medium-550.png" alt="Provo Chamber city design logo">
+                </picture>
+            </div>
+            <div id="small_wireframe">
+                <h2>Small Home Page Wireframe Sketch</h2>
+                <picture>
+                    <source srcset="images/wireframe-small-650.png" media="(min-width: 600px)">
+                    <img src="images/wireframe-small-550.png" alt="Provo Chamber city design logo">
+                </picture>
+            </div>
         </main>
+
+        <script src="scripts/script.js"></script>
     </body>
 </html>

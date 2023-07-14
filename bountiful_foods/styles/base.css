@@ -1,12 +1,14 @@
+body {
+    font-family: 'Heebo', sans-serif;
+}
+
+/* Styling the header */
+
 h1 {
     font-size: 40px;
     margin: 10px 10px;
     font-family: 'Fira Sans', sans-serif;
     color: #65a565;
-}
-
-body {
-    font-family: 'Heebo', sans-serif;
 }
 
 nav {
@@ -27,7 +29,8 @@ nav ul {
 
 nav ul.active {
     position: absolute;
-    right: 5px;
+    right: 25px;
+    top: 75px;
     display: block;
     text-align: center;
 }
@@ -46,55 +49,30 @@ nav ul li a:hover {
 
 nav button {
     display: block;
-    margin-left: auto;
     font-size: 40px;
     border-style: none;
     padding: 28px 25px;
     background-color:  rgba(0,0,0,0);
+    margin-left: auto;
+}
+
+header a:nth-child(3) button {
+    width: 120px;
+    margin: 10px;
+    background-color: #87ca8d;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+header a:nth-child(3) button:hover {
+    background-color: #64ad6c;
 }
 
 header {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    align-items: center;
 }
 
-h2 {
-    font-size: 27px;
-    margin: 15px;
-    color: #368636
-}
+/* Styling the Home page */
 
-p {
-    margin: 15px;
-}
-
-img {
-    max-width: 100%;
-}
-
-picture {
-    max-width: 550px;
-}
-
-nav ul li.current_page {
-    background-color: rgba(0,0,0,0.08);
-}
-
-table {
-    margin: 15px;
-    border-spacing: 18px;
-}
-
-input {
-    background-color: #87ca8d;
-    border: 0;
-    border-radius: 5px;
-    padding: 5px 10px;
-}
-
-#design p {
-    background-color: #90d896;
-    padding: 5px;
-    text-align: center;
-    margin: 10px 0;
-}
