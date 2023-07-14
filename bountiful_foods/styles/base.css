@@ -76,3 +76,8 @@ header {
 
 /* Styling the Home page */
 
+#hero {
+    background-image: url("https://placehold.co/550");
+    max-width: 550px;
+    height: 550px;
+}
