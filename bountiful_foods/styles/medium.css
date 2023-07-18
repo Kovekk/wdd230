@@ -20,8 +20,8 @@
         border-right: 1px solid gray;
     }
 
-    header a:nth-child(3) button {
-        width: 150px;
+    header a:nth-child(3) {
+        width: 210px;
         font-size: 20px;
         padding: 20px 15px;
     }

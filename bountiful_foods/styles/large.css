@@ -18,9 +18,9 @@
         padding: 12px 35px;
     }
 
-    header a:nth-child(3) button {
+    header a:nth-child(3) {
         font-size: 28px;
-        width: 200px;
+        width: 300px;
         padding: 10px 15px;
     }
 

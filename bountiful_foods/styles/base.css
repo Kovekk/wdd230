@@ -73,7 +73,8 @@ nav button {
 
 header a:nth-child(3) {
     margin: 10px;
-    width: 120px;
+    width: 350px;
+    font-size: 20px;
 }
 
 header {
