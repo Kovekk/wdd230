@@ -5,7 +5,7 @@ body {
 h2 {
     text-align: center;
     font-size: 30px;
-    color: #368636;
+    color: #328532;
 }
 
 /* Styling the header */
@@ -14,7 +14,7 @@ h1 {
     font-size: 40px;
     margin: 10px 10px;
     font-family: 'Fira Sans', sans-serif;
-    color: #65a565;
+    color: #287128;
 }
 
 nav {
@@ -85,7 +85,7 @@ header {
 /* Styling the footer */
 
 footer {
-    background-color: rgb(238, 238, 240);
+    background-color: #eeeef0;
 }
 
 footer h1 {
@@ -294,7 +294,7 @@ form input.submitBtn {
     border-radius: 7px;
     border-style: none;
     background-color: #87ca8d;
-    color: white;
+    color: black;
 }
 
 form input.submitBtn:hover {
@@ -318,7 +318,6 @@ form input.submitBtn:hover {
 #fresh div {
     width: fit-content;
     margin: auto;
-    border 1px dotted blue;
 }
 
 #fresh div h2 {
