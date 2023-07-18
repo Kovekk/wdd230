@@ -67,12 +67,13 @@ nav button {
     margin-left: auto;
 }
 
-header a:nth-child(3) button {
+/* header a:nth-child(3) button {
     width: 120px;
-}
+} */
 
 header a:nth-child(3) {
     margin: 10px;
+    width: 120px;
 }
 
 header {
@@ -277,10 +278,11 @@ form label.top textarea {
     border: 2px solid gray;
 }
 
-form label.top select {
+form select {
     display: block;
     font-size: 19px;
     margin-top: 8px;
+    margin-left: 50px;
 
 }
 
