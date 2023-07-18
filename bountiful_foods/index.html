@@ -21,40 +21,90 @@
             <nav>
                 <button id="hamButton">&#9776;</button>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="fresh.html">Fresh</a></li>
                     <li><a href="about.html">About Us</a></li>
                 </ul>
             </nav>
-            <a href="fresh.html"><button>Make a Drink</button></a>
+            <a href="fresh.html"><button class="button">Make a Drink</button></a>
         </header>
-        <main>
+        <main id="home">
             <div id="hero">
                 <p>Fresh ingredients you can be proud of!</p>
-                <a href="">Start your drink</a>
-                <!-- <img src="https://placehold.co/500x700" alt="HERO"> -->
-            </div>
-            <div id="currentWeather">
-                Current weather
-            </div>
-            <div id="weatherForecast">
-                Weather forecast
+                <a href="fresh.html" class="button">Start your drink</a>
+                <picture>
+                    <source srcset="images/hero-850.jpg" media="(min-width:600px) and (max-width: 949px)">
+                    <source srcset="images/hero-1350.jpg" media="(min-width: 950px)">
+                    <img src="images/hero-550.jpg" alt="FRESH FRUIT" loading="lazy">
+                </picture>
             </div>
             <div id="drinksOrdered">
-                Number of drinks ordered
+                <p></p>
+                <picture>
+                    <source srcset="images/drinks-350.jpg" media="(min-width:600px) and (max-width: 949px)">
+                    <source srcset="images/drinks-550x400.jpg" media="(min-width: 950px)">
+                    <img src="images/drink-550x300.jpg" alt="FRESH FRUIT" loading="lazy">
+                </picture>
+            </div>
+            <div id="currentWeather">
+                <p id="currentTemp"></p>
+                <p id="weatherCondition"></p>
+                <p id="humidity"></p>
+            </div>
+            <div id="weatherForecast">
+                <h2>3-Day Forecast</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th id="day1Date"></th>
+                            <th id="day2Date"></th>
+                            <th id="day3Date"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td id="day1High"></td>
+                            <td id="day2High"></td>
+                            <td id="day3High"></td>
+                        </tr>
+                        <tr>
+                            <td id="day1Low"></td>
+                            <td id="day2Low"></td>
+                            <td id="day3Low"></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <div id="californiaCoast">
-                Info about coastal area in california!
+                <h2>La Jolla</h2>
+                <p>Come visit our food truck at 3595 John Hopkins court in San Diego for fresh organic juice! 
+                    Sip on our delicious juice as you walk along the shores with world-famous views in La Jolla. 
+                    La Jolla, also known as "the jewel" of San Deigo, hosts outdoor activities such as hiking, 
+                    hang gliding, kayaking, and more. Whales can also be seen migrating to and from Baja 
+                    California. Or, if you prefer indoor activities, visit La Jolla's aquarium or museum of 
+                    contemporary art.
+                </p>
+                <picture>
+                    <source srcset="images/jolla-800.jpg" media="(min-width:600px) and (max-width: 949px)">
+                    <source srcset="images/jolla-1200.jpg" media="(min-width:950px)">
+                    <img src="images/jolla-550.jpg" alt="COAST AREA">
+                </picture>
             </div>
         </main>
         <footer>
             <h1>Bountiful<br>Foods</h1>
-            <p>Contact Info</p>
-            <img src="https://placehold.co/400" alt="FACEBOOK">
-            <img src="https://placehold.co/400" alt="TWIITER">
-            <img src="https://placehold.co/400" alt="LINKED IN">
+            <p>101 Organic Way Carlsbad, CA 92009</p>
+            <p>(268) 684-3663</p>
+            <p>customersupport@bountifulfoods.com</p>
+            <div>
+                <img src="https://placehold.co/55" alt="FACEBOOK">
+                <img src="https://placehold.co/55" alt="TWIITER">
+                <img src="https://placehold.co/55" alt="LINKED IN">
+            </div>
         </footer>
 
         <script src="scripts/script.js"></script>
+        <script src="scripts/totalDrinks.js"></script>
+        <script src="scripts/weatherapi.js"></script>
     </body>
 </html>

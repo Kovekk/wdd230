@@ -22,13 +22,45 @@
                 <button id="hamButton">&#9776;</button>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="fresh.html">Fresh</a></li>
+                    <li><a href="fresh.html" class="active">Fresh</a></li>
                     <li><a href="about.html">About Us</a></li>
                 </ul>
             </nav>
-            <a href="fresh.html"><button>Make a Drink</button></a>
+            <a href="fresh.html"><button class="button">Make a Drink</button></a>
         </header>
+        <main id="fresh">
+            <form action="">
+                <h2>Make a fresh drink!</h2>
+                <label class="top">First Name* <input type="text" name="fname" required autofocus></label>
+                <label class="top">Email* <input type="email" name="email" required autofocus></label>
+                <label class="top">Phone number* <input type="tel" name="tel" required autofocus></label>
+
+                <label id="fruit" class="top">
+                    Choose 3 fruits for your drink*
+                    <select name="fruit" id="fruit1"></select>
+                    <select name="fruit" id="fruit2"></select>
+                    <select name="fruit" id="fruit3"></select>
+                </label>
+
+                <label class="top">Special Instructions<textarea name="specialInstructions" rows="10"></textarea></label>
+
+                <input type="button" name="submit" value="Get your drink!" class="submitBtn">
+            </form>
+        </main>
+        <footer>
+            <h1>Bountiful<br>Foods</h1>
+            <p>101 Organic Way Carlsbad, CA 92009</p>
+            <p>(268) 684-3663</p>
+            <p>customersupport@bountifulfoods.com</p>
+            <div>
+                <img src="https://placehold.co/35" alt="FACEBOOK">
+                <img src="https://placehold.co/35" alt="TWIITER">
+                <img src="https://placehold.co/35" alt="LINKED IN">
+            </div>
+        </footer>
 
         <script src="scripts/script.js"></script>
+        <script src="scripts/displayOrder.js"></script>
+        <script src="scripts/fillFruit.js"></script>
     </body>
 </html>
